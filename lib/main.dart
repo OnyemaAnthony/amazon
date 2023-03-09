@@ -15,13 +15,15 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-class Homescreen extends StatelessWidget {
-  const Homescreen({Key? key}) : super(key: key);
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-
+appBar: AppBar(
+  title: Text(''),
+),
     );
   }
 }
